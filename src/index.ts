@@ -43,7 +43,7 @@ const modifyMap = (data: ResultEntry[]) => {
     .scaleLinear()
     .domain([0, maxAffected])
     .clamp(true)
-    .range([0, 50]); // 50 pixel max radius, we could calculate it relative to width and height
+    .range([5, 50]); // 50 pixel max radius, we could calculate it relative to width and height
 
   const calculateRadiusBasedOnAffectedCases = (comunidad: string) => {
     const entry = data.find(item => item.name === comunidad);
@@ -80,3 +80,5 @@ document
   .addEventListener("click", function handleCurrentResults(){
     modifyMap(final_stats)
   });
+
+  modifyMap(initial_stats)

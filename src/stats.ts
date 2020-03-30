@@ -77,70 +77,70 @@ export const initial_stats : ResultEntry[] =[
 export const final_stats : ResultEntry[] =[
   {
     name: "Madrid",
-    value: 12352
+    value: 24090
   },
   {
     name: "La Rioja",
-    value: 802
+    value: 1733
   },
   {
     name: "Andalucía",
-    value: 2471
+    value: 5405
   },
   {
     name: "Cataluña",
-    value: 7864
+    value: 16157
   },
   {
     name: "Valencia",
-    value: 2167
+    value: 5110
   },
   {
     name: "Murcia",
-    value: 385
+    value: 920
   },
   {
     name: "Extremadura",
-    value: 636
+    value: 1560
   },
   {
     name: "Castilla La Mancha",
-    value: 2465
+    value: 5858
   },
   {
     name: "País Vasco",
-    value: 2728
+    value: 6057
   },
   {
     name: "Cantabria",
-    value: 425
+    value: 1100
   },
   {
     name: "Asturias",
-    value: 662
+    value: 1158
   },
   {
     name: "Galicia",
-    value: 1415
+    value: 3723
   },
   {
     name: "Aragón",
-    value: 758
+    value: 2078
   },
   {
     name: "Castilla y León",
-    value: 2460
+    value: 5414
   },
   {
     name: "Islas Canarias",
-    value: 557
+    value: 1204
   },
   {
     name: "Islas Baleares",
-    value: 478
+    value: 958
   },
   {
     name: "Navarra",
-    value: 1014
+    value: 2146
   }
 ];
