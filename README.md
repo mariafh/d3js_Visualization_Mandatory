@@ -5,14 +5,13 @@
 people affected by COVID-19. 
  - Scale pin radius is based on affected number.
 
+![Map](/content/map_simple.png)
 
 This code is based on:
 
 - Lemoncode / d3js-typescript-examples  
 [https://github.com/Lemoncode/d3js-typescript-examples/tree/master/02-maps/02-pin-location-scale](https://github.com/Lemoncode/d3js-typescript-examples/tree/master/02-maps/02-pin-location-scale)
 
-
-![Map](/content/map_simple.png)
 
 # Steps
 
