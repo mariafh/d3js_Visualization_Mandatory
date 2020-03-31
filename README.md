@@ -1,9 +1,9 @@
 # COVID-19 in Spain: Evolution between two dates
 
 
--- Circles are placed in every region with   
+ - Circles are placed in every region with   
 people affected by COVID-19. 
--- Scale pin radius is based on affected number.
+ - Scale pin radius is based on affected number.
 
 
 This code is based on:
@@ -136,7 +136,7 @@ export  const  final_stats : ResultEntry[] =[
 	value: 636
 },
 {
-	name: Castilla La Mancha",
+	name: "Castilla La Mancha",
 	value: 2465
 },
 {
