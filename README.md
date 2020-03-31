@@ -179,7 +179,7 @@ export  const  final_stats : ResultEntry[] =[
 ];
 ```
 
-- Import it into our index.ts
+- Importing it into our index.ts
 
 _./src/index.ts_
 ```typescript
@@ -239,7 +239,7 @@ const affectedRadiusScale = d3
   .domain([0, maxAffected])
   .range([0, 50]); // 50 pixel max radius, we could calculate it relative to width and height
 ```
-- Helper function to relate community name with affected cases.
+- Using a  helper function to relate community name with affected cases.
 
 _./src/index.ts_
 
@@ -250,7 +250,7 @@ const  calculateRadiusBasedOnAffectedCases = (comunidad: string) => {
 };
 ```
 
-- Circle rendering code:
+- Rendering the circles:
   -  To create a circle for first time: _.append()_
   -  To update the circle: _.merge()_
   -  Including _.transition_ and _duration_ to make the circle radius change slow.
