@@ -1,5 +1,4 @@
-# COVID-19 in Spain: Evolution between two dates
-
+# COVID-19 in Spain: Comparing affected cases between two different dates
 
  - Circles are placed in every region with   
 people affected by COVID-19. 
@@ -26,9 +25,7 @@ npm start
 ```
 ## Coding
 
-- We will add the stats that we need to display (affected persons per community). 
-
-- We want to compare affected cases in two different dates:
+- Adding the stats that we want to display -affected persons per community
 
 _./stats.ts_
 
